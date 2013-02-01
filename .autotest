@@ -1,0 +1,30 @@
+#require 'autotest/restart'
+#require 'autotest/growl'
+#require 'autotest/timestamp'
+
+
+#Autotest.add_hook :initialize do |at|
+# at.order = :random
+#  at.add_exception 'coverage'
+#  at.add_exception 'coverage.info'
+#
+#  %w(TestZenTest).each do |klass|
+#    at.extra_class_map[klass] = "test/test_zentest.rb"
+#  end
+#end
+
+#Autotest.add_hook :all_good do |at|
+#  system "rake rcov_info"
+#end if ENV['RCOV']
+
+require 'autotest/growl' # enable pop-up windows
+require 'autotest/restart' # optional: forces autotest to pick the changes to this file
+require 'autotest/timestamp' # optional: shows timestamps for test runs filter out VCS files and other garbage to reduce HDD usage
+Autotest.add_hook :initialize do |autotest|
+  %w{.git .svn .hg .DS_Store ._* vendor tmp log doc}.each do |exception|
+    autotest.add_exception(exception)
+  end
+end
+ 
+# do not clear console before running tests
+Autotest::Growl::clear_terminal = false
