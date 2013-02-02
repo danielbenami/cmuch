@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 
+
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development do
@@ -21,6 +23,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'gravatar_image_tag'
 
 group :test do
   gem 'capybara', '1.1.2'
