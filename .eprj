@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>fileTriggers</key>
+        <dict>
+            <key>user</key>
+            <string>app\controllers\users_controller.rb</string>
+            <key>user_rspec</key>
+            <string>spec\controllers\users_controller_spec.rb</string>
+        </dict>
+    </dict>
+</plist>
