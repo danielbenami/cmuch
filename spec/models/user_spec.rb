@@ -8,6 +8,8 @@
 #  created_at         :datetime         not null
 #  updated_at         :datetime         not null
 #  encrypted_password :string(255)
+#  salt               :string(255)
+#  admin              :boolean          default(FALSE)
 #
 
 require 'spec_helper'
@@ -160,6 +162,25 @@ describe User do
     end
 
   end #end describe password
+
+  describe "admin attribute" do
+    before(:each) do
+      @user = User.create!(@attr)
+    end
+    it "should response to admin" do
+      @user.should respond_to(:admin)
+    end
+
+    it "should not be admin by default" do
+      @user.should_not be_admin
+    end
+
+    it "should be converatble to an admin" do
+      @user.toggle!(:admin)
+      @user.should be_admin
+    end
+  end
+
 end #end describe User
 
 
