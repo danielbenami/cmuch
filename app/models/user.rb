@@ -61,5 +61,7 @@ class User < ActiveRecord::Base
   		secure_hash("#{Time.now.utc}--#{password}")
   	end
 
+
+
 end
 
