@@ -4,13 +4,14 @@ gem 'rails', '3.2.8'
 
 
 
-# Bundle edge Rails instead:
+# Bundle edge railsails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development do
   gem 'rspec-rails', '2.11.0'
   gem 'sqlite3'
   gem 'webrat'
   gem 'annotate'
+  gem 'faker', '0.3.1'
 end
 
 
@@ -24,6 +25,7 @@ end
 
 gem 'jquery-rails'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 group :test do
   gem 'capybara', '1.1.2'
