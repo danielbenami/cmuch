@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"des",
+				"des	describe \"description\" do … end"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"micro",
+				"micropost"
+			],
+			[
+				"eac",
+				"eac-	each_char { |chr| .. }"
+			],
+			[
+				"lam",
+				"lam	lambda { |args| .. }"
+			],
+			[
+				"succ",
+				"success"
+			],
+			[
+				"redic",
+				"redirect_to"
+			],
+			[
+				"have",
+				"have_selector"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"success",
+				"successful"
+			],
+			[
+				"redi",
+				"redirect_to"
+			],
+			[
 				"ren",
 				"renp	redirect_to (nested path)"
 			],
@@ -44,10 +92,6 @@
 				"should"
 			],
 			[
-				"do",
-				"don"
-			],
-			[
 				"enc",
 				"encrypted_password"
 			],
@@ -58,10 +102,6 @@
 			[
 				"en",
 				"encrypted_password"
-			],
-			[
-				"eac",
-				"eac-	each_cons(..) { |group| .. }"
 			],
 			[
 				"b",
@@ -119,14 +159,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 1710,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -176,46 +208,65 @@
 	},
 	"file_history":
 	[
+		"/C/ruby/rapps/cmuch/app/views/shared/_error_messages.html.erb",
+		"/C/ruby/rapps/cmuch/app/controllers/pages_controller.rb",
+		"/C/ruby/rapps/cmuch/app/views/users/new.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/shared/_micropost_form.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/users/edit.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/users/_fields.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/pages/home.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/shared/_user_info.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/shared/_micropost",
+		"/C/ruby/rapps/cmuch/app/helpers/sessions_helper.rb",
+		"/C/ruby/rapps/cmuch/spec/controllers/users_controller_spec.rb",
+		"/C/ruby/rapps/cmuch/app/controllers/users_controller.rb",
+		"/C/ruby/rapps/cmuch/spec/controllers/microposts_controller_spec.rb",
+		"/C/ruby/rapps/cmuch/app/controllers/microposts_controller.rb",
+		"/C/ruby/rapps/cmuch/config/routes.rb",
+		"/C/ruby/rapps/cmuch/app/controllers/microposts.rb",
+		"/C/ruby/rapps/cmuch/app/controllers/sessions_controller.rb",
+		"/C/ruby/rapps/cmuch/spec/controllers/microposts_controller_spec",
+		"/C/ruby/rapps/cmuch/app/views/users/show.html.erb",
+		"/C/ruby/rapps/cmuch/lib/tasks/sample_data.rake",
+		"/C/ruby/rapps/cmuch/spec/factories.rb",
+		"/C/ruby/rapps/cmuch/app/models/user.rb",
+		"/C/ruby/rapps/cmuch/spec/models/user_spec.rb",
+		"/C/ruby/rapps/cmuch/app/models/micropost.rb",
+		"/C/ruby/rapps/cmuch/app/views/microposts/_micropost.html.erb",
+		"/C/ruby/rapps/cmuch/spec/models/micropost_spec.rb",
+		"/C/ruby/rapps/cmuch/app/assets/stylesheets/custom.css",
+		"/C/ruby/rapps/cmuch/spec/controllers/pages_controller_spec.rb",
+		"/C/ruby/rapps/cmuch/user.rb",
+		"/C/Ruby193/DevKit/etc/profile",
+		"/C/ruby/rapps/cmuch/db/migrate/20130201172355_add_email_uniqueness_index.rb",
+		"/C/ruby/rapps/cmuch/db/migrate/20130205140714_create_microposts.rb",
+		"/C/ruby/rapps/cmuch/Gemfile",
+		"/C/ruby/rapps/cmuch/app/assets/javascripts/application.js",
+		"/C/ruby/rapps/cmuch/config/database.yml",
+		"/C/ruby/rapps/cmuch/app/views/users/_user.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/layouts/application.html.erb",
+		"/C/ruby/rapps/cmuch/db/migrate/20130204140830_add_admin_to_users.rb",
+		"/C/ruby/rapps/cmuch/app/views/users/index.html.erb",
+		"/C/ruby/rapps/cmuch/app/views/layouts/_header.html.erb",
+		"/C/ruby/rapps/cmuch/spec/requests/layout_links_spec.rb",
+		"/C/ruby/rapps/cmuch/spec/requests/friendly_forwardings_spec.rb",
 		"/C/ruby/rapps/cmuch/spec/controllers/sessions_controller_spec.rb",
 		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Installed Packages/Package Control.sublime-package",
-		"/C/ruby/rapps/cmuch/app/controllers/users_controller.rb",
-		"/C/ruby/rapps/cmuch/config/routes.rb",
-		"/C/ruby/rapps/cmuch/spec/controllers/users_controller_spec.rb",
-		"/C/ruby/rapps/cmuch/app/views/users/_fields.html.erb",
-		"/C/ruby/rapps/cmuch/app/views/users/edit.html.erb",
-		"/C/ruby/rapps/cmuch/app/views/users/new.html.erb",
 		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/ruby/rapps/cmuch/app/models/user.rb",
 		"/C/ruby/rapps/cmuch/cmuch.sublime-project",
-		"/C/ruby/rapps/cmuch/spec/requests/layout_links_spec.rb",
-		"/C/ruby/rapps/cmuch/app/views/layouts/_header.html.erb",
 		"/C/ruby/rapps/cmuch/spec/requests/users_spec.rb",
-		"/C/ruby/rapps/cmuch/app/controllers/sessions_controller.rb",
 		"/C/ruby/rapps/cmuch/spec/spec_helper.rb",
-		"/C/ruby/rapps/cmuch/app/helpers/sessions_helper.rb",
 		"/C/ruby/rapps/cmuch/app/controllers/application_controller.rb",
-		"/C/ruby/rapps/cmuch/app/views/shared/_error_messages.html.erb",
 		"/C/ruby/rapps/cmuch/app/views/sessions/new.html.erb",
-		"/C/ruby/rapps/cmuch/spec/models/user_spec.rb",
-		"/C/ruby/rapps/cmuch/app/assets/stylesheets/custom.css",
-		"/C/ruby/rapps/cmuch/app/views/layouts/application.html.erb",
 		"/C/ruby/rapps/cmuch/app/views/shared/error_messages",
-		"/C/ruby/rapps/cmuch/app/views/users/show.html.erb",
 		"/C/ruby/rapps/cmuch/app/helpers/users_helper.rb",
-		"/C/ruby/rapps/cmuch/Gemfile",
-		"/C/ruby/rapps/cmuch/spec/factories.rb",
 		"/C/ruby/rapps/cmuch/db/migrate/20130202121515_add_salt_to_users.rb",
 		"/C/ruby/rapps/cmuch/db/migrate/20130202113917_add_passwords_to_users.rb",
-		"/C/ruby/rapps/cmuch/db/migrate/20130201172355_add_email_uniqueness_index.rb",
-		"/C/ruby/rapps/cmuch/user.rb",
 		"/C/ruby/rapps/cmuch/db/migrate/20130201151410_create_users.rb",
 		"/C/ruby/rapps/cmuch/db/schema.rb",
 		"/C/ruby/rapps/cmuch/config/initializers/secret_token.rb",
 		"/C/ruby/rapps/cmuch/app/views/layouts/_footer.html.erb",
 		"/C/ruby/rapps/cmuch/app/helpers/application_helper.rb",
-		"/C/ruby/rapps/cmuch/app/views/pages/home.html.erb",
-		"/C/ruby/rapps/cmuch/spec/controllers/pages_controller_spec.rb",
-		"/C/ruby/rapps/cmuch/app/controllers/pages_controller.rb",
 		"/C/ruby/rapps/cmuch/app/views/pages/help.html.erb",
 		"/C/ruby/rapps/cmuch/app/views/layouts/_stylesheets.html.erb",
 		"/C/ruby/rapps/cmuch/app/views/pages/about.html.erb",
@@ -281,37 +332,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 1710,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								315,
-								315
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -361,15 +383,39 @@
 		"selected_items":
 		[
 			[
-				"user.rb",
-				"app/models/user.rb"
+				"new",
+				"app/views/users/new.html.erb"
 			],
 			[
-				"spec",
-				"spec/controllers/sessions_controller_spec.rb"
+				"usershtml",
+				"app/views/users/new.html.erb"
 			],
 			[
-				"user",
+				"pages",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.erb"
+			],
+			[
+				"sessionshelp",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"session",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"user_cont",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user_spec",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"user_contr",
 				"app/controllers/users_controller.rb"
 			],
 			[
@@ -377,24 +423,136 @@
 				"config/routes.rb"
 			],
 			[
-				"layout",
-				"spec/requests/layout_links_spec.rb"
+				"sample",
+				"lib/tasks/sample_data.rake"
 			],
 			[
-				"header",
-				"app/views/layouts/_header.html.erb"
+				"show",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"custom",
+				"app/assets/stylesheets/custom.css"
+			],
+			[
+				"user_con",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"controller_spe",
+				"spec/controllers/pages_controller_spec.rb"
+			],
+			[
+				"users_c",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"factor",
+				"spec/factories.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"userspec",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"micro",
+				"app/models/micropost.rb"
+			],
+			[
+				"micropost",
+				"spec/models/micropost_spec.rb"
+			],
+			[
+				"migrati",
+				"db/migrate/20130201172355_add_email_uniqueness_index.rb"
+			],
+			[
+				"createmic",
+				"db/migrate/20130205140714_create_microposts.rb"
+			],
+			[
+				"database",
+				"config/database.yml"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"_user",
+				"app/views/users/_user.html.erb"
+			],
+			[
+				"usercon",
+				"spec/controllers/users_controller_spec.rb"
 			],
 			[
 				"user_co",
 				"app/controllers/users_controller.rb"
 			],
 			[
-				"usercontro",
+				"add_admin",
+				"db/migrate/20130204140830_add_admin_to_users.rb"
+			],
+			[
+				"user_",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"index.",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"fac",
+				"spec/factories.rb"
+			],
+			[
+				"controll",
 				"spec/controllers/users_controller_spec.rb"
 			],
 			[
-				"new",
-				"app/views/users/new.html.erb"
+				"index",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"header",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"friend",
+				"spec/requests/friendly_forwardings_spec.rb"
+			],
+			[
+				"sessions",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"uc",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"spec",
+				"spec/controllers/sessions_controller_spec.rb"
+			],
+			[
+				"usercontro",
+				"spec/controllers/users_controller_spec.rb"
 			],
 			[
 				"users_spec",
@@ -411,14 +569,6 @@
 			[
 				"users_co",
 				"app/controllers/users_controller.rb"
-			],
-			[
-				"sessions",
-				"app/helpers/sessions_helper.rb"
-			],
-			[
-				"userspec",
-				"spec/controllers/users_controller_spec.rb"
 			],
 			[
 				"user_s",
@@ -461,10 +611,6 @@
 				"Gemfile"
 			],
 			[
-				"show",
-				"app/views/users/show.html.erb"
-			],
-			[
 				"gemfile",
 				"Gemfile"
 			],
@@ -485,10 +631,6 @@
 				"db/migrate/20130202113917_add_passwords_to_users.rb"
 			],
 			[
-				"user_",
-				"spec/models/user_spec.rb"
-			],
-			[
 				"usernew",
 				"app/views/users/new.html.erb"
 			],
@@ -501,20 +643,12 @@
 				"db/migrate/20130201172355_add_email_uniqueness_index.rb"
 			],
 			[
-				"user_spec",
-				"spec/models/user_spec.rb"
-			],
-			[
 				"schema",
 				"db/schema.rb"
 			],
 			[
 				"create_",
 				"db/migrate/20130201151410_create_users.rb"
-			],
-			[
-				"users_c",
-				"app/controllers/users_controller.rb"
 			],
 			[
 				"application_hel",
